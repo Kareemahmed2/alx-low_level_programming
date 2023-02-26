@@ -1,17 +1,19 @@
+#include <unistd.h>
 #include "holberton.h"
+
 /**
- * main - prints the string "Holberton" from a character array.
- * Return: 0 on success.
+ * main - Check description
+ * Description: It prints the word Holberton, followed by a new line.
+ * Return: 0.
  */
 int main(void)
 {
-	char c[] = "_putchar";
+	char word[8] = "_putchar";
 	int i;
 
-	for (i = 0; i < 9; i++)
-	{
-		_putchar(c[i]);
-	}
+	for (i = 0; i < 8; i++)
+		_putchar(word[i]);
 	_putchar('\n');
+
 	return (0);
 }
