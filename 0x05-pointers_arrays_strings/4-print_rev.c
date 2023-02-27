@@ -14,8 +14,8 @@ void print_rev(char *p)
 		longi++;
 		p++;
 	}
-	s--;
-	for (o = longi; o > 0; o--)
+	p--;
+	for (o = longi; o => 0; o--)
 	{
 		_putchar(*p);
 		p--;
@@ -23,4 +23,3 @@ void print_rev(char *p)
 
 	_putchar('\n');
 }
-
